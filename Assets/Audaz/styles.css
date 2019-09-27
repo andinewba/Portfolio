@@ -1,0 +1,395 @@
+/* HTML Elements */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.85rem;
+}
+
+h4 {
+  font-family: 'Kanit', sans-serif;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1.75;
+}
+
+hr {
+  border: dotted rgb(55, 55, 55) 5px;
+  border-bottom: none;
+  width: 20%;
+}
+
+/* General tags */
+
+.p-font-size {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  vertical-align: 2em;
+}
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.yellow-text {
+color: yellow;
+}
+
+.white-text {
+color: white;
+}
+
+
+.light-text {
+font-weight: lighter;
+}
+
+.bold-text {
+ font-weight: bold;
+}
+
+
+.left-align {
+text-align: left;
+margin-left: 0;
+}
+
+.center-align {
+ text-align: center;
+}
+
+
+.dark-gray-bg {
+  background-color: rgb(66, 65, 65);
+}
+
+.no-bg {
+  background-color: transparent;
+}
+
+
+.h1-max-height-1 {
+  max-height: 76px;
+ }
+
+.h1-max-height-2 {
+ max-height: 152px;
+}
+
+
+.h2-max-height-1 {
+  max-height: 57px;
+}
+
+.h2-max-height-2 {
+  max-height: 144px;
+}
+
+.h2-max-height-3 {
+  max-height: 171px;
+ }
+
+.h2-max-height-4 {
+ max-height: 228px;
+}
+
+.h2-max-height-7 {
+  max-height: 399px;
+}
+
+.h2-max-height-10 {
+  max-height: 570px;
+}
+
+
+.h3-max-height-2 {
+  max-height: 70px;
+}
+
+.h3-max-height-3 {
+  max-height: 105px;
+}
+
+
+.p-max-height-1 {
+  max-height: 24px;
+}
+
+.p-max-height-2 {
+  max-height: 56px;
+ }
+
+.p-max-height-3 {
+ max-height: 84px;
+}
+
+.p-max-height-4 {
+  max-height: 112px;
+}
+
+
+.btn-max-height-1 {
+  height: 42px;
+}
+
+.btn-max-height-2 {
+  max-height: 70px;
+}
+
+.btn-faq-max-height-2 {
+  max-height: 62px;
+}
+
+
+
+.wide-btn {
+  width: 65%;
+}
+
+.custom-btn-outline {
+  color: yellow;
+  border-color: yellow;
+}
+
+.custom-btn-outline:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.custom-btn-full {
+  color: black;
+  background-color: yellow;
+  border-color: yellow;
+
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2rem !important;
+  font-weight: bolder !important;
+}
+
+.custom-btn-full:hover {
+  color: yellow;
+  background-color: transparent;
+  border-color: yellow;
+}
+
+.custom-btn-faq {
+  color: white;
+}
+
+.custom-btn-faq:hover {
+  color: white;
+  background-color: rgb(66, 65, 65);
+}
+
+ /* Title elements */
+
+.title-container{
+  height: 1036.250px;
+  padding: 0 7%;
+}
+
+.navbar-custom {
+  padding: 20px 25px;
+}
+
+.nav-link-padding {
+  padding: 8px 30px !important;
+}
+
+.brand-logo{
+  width: 100px;
+}
+
+.title-img {
+  max-width: 750px;
+  position: absolute;
+  right: 0;
+}
+
+.title-row-custom {
+  margin: 0;
+  padding-top: 250px;
+}
+
+/* .title-div {
+  padding: 200px 50px 50px;
+} */
+
+#title {
+  text-align: center;
+}
+
+/* Albert elements */
+
+.albert-img {
+  max-width: 750px;
+  position: absolute;
+  left: 10%;
+}
+
+.albert-container {
+  height: 746px;
+  padding: 0 7%;
+}
+
+.albert-quote-div {
+  padding: 150px 0 0;
+}
+
+#albert-quote {
+  margin: 50px 0;
+}
+
+/* Conteudo elements */
+
+.conteudo-container {
+  height: 532.984px;
+  padding: 0 7%;
+}
+
+.conteudo-img {
+  position: absolute;
+  max-width: 450px;
+  right: 10%;
+}
+
+.conteudo-row {
+  padding: 15px 0 0;
+  margin-left: 5%
+}
+
+#conteudo {
+  margin: 50px 0;
+}
+
+#conteudo h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Participantes elements */
+
+.participantes-container {
+  height: 514.38px;
+  padding: 0 7%;
+}
+
+.participantes-img {
+  position: absolute;
+  max-width: 450px;
+  left: 5%;
+}
+
+.participantes-col {
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+#participantes {
+  margin: 50px 0;
+}
+
+#participantes h2 {
+  margin-bottom: 20px;
+}
+
+/*  */
+
+/* Alvin elements */
+
+.alvin-quote-container {
+  height: 690px;
+  padding: 0 7%;
+}
+
+.alvin-quote-img {
+  position: absolute;
+  left: 10%;
+}
+
+.alvin-quote-col {
+  padding-top: 5%;
+}
+
+#alvin-quote {
+  margin: 50px 0;
+}
+
+/* Speakers elements */
+
+#speakers {
+  margin: 50px 0;
+}
+
+
+/* Lugar elements */
+
+#lugar {
+  margin: 50px 0;
+}
+
+
+/* FAQ elements */
+
+#faq {
+  margin: 50px 0;
+}
+
+
+/* Footer elements */
+
+#footer {
+  margin: 50px 0 0;
+}
+
+.vertical-rule {
+  border: solid rgb(55, 55, 55) 1px !important;
+  border-right: none;
+  height: 100%;
+  width: 1px;
+}
+
+.solid-rule {
+  border: solid rgb(55, 55, 55) 1px !important;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 86%;
+}
+
+.horizontal-list {
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+.footer-p-1 {
+  font-size: .9rem;
+}
+
+.footer-p-2 {
+  font-size: .8rem;
+}

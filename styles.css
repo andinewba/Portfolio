@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  line-height: 2;
+}
+
+hr {
+  border-color: rgb(55, 55, 55);
+  width: 45%;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  line-height: 2;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+#main {
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: rgb(75, 15, 15);
+  padding: 25px 0;
+  font-size: .75rem;
+}
