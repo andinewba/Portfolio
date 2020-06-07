@@ -2,7 +2,8 @@ body {
   background-color: rgb(25, 25, 25);
   color: white;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: .05rem;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
   margin: 0;
 }
 
@@ -15,16 +16,30 @@ h1 {
 h2, h3, h4 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
+  line-height: 1.25;
+}
+
+h2 {
+
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
 }
 
 h5 {
   font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
 }
 
 p {
   padding-top: 1%;
   padding-bottom: 1%;
-  line-height: 2;
+  line-height: 1.75;
 }
 
 hr {
